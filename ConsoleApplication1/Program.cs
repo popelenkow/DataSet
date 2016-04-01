@@ -56,6 +56,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            int u = 0;
+            u++;
             MyDataSet _data = new MyDataSet();
             _data.Start();
             _data.Set("ad", "and", "ad");
